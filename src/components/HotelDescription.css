@@ -1,0 +1,28 @@
+.hotelcontent
+{
+    width: 85%;
+    margin: 1rem auto;
+    padding: 1rem 0;
+}
+
+.flexdiv
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.viewMap
+{
+    color: rgb(90, 160, 240);
+    text-decoration: underline;
+}
+
+.heading h2
+{
+    margin-top: 0;
+}
+
+.description
+{
+    font-size: 1.2rem;
+}

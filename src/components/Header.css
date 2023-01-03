@@ -7,9 +7,14 @@
     padding: 0;
 }
 
-.header div
+.headerlogo
 {
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0.5rem 0 0.5rem 4rem;
+}
+
+.headercontact
+{
+    padding: 0.5rem 4rem 0.5rem 0rem;
 }
 
 h1
@@ -18,6 +23,6 @@ h1
     background: linear-gradient(90deg, #cf23cf, rgb(221, 221, 90), #ff6b08,#cf23cf, #cf23cf);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    font-size: 3rem;
-    font-family: fantasy;
+    font-size: 2rem;
+    font-family: cursive;
 }

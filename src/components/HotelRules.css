@@ -1,0 +1,19 @@
+
+.hotelrules
+{
+    width: 85%;
+    margin: 1rem auto;
+    padding: 2rem;
+    border-top: 2px solid rgb(218, 215, 215);
+}
+
+.rules
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul
+{
+    
+}

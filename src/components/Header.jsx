@@ -4,10 +4,10 @@ import './Header.css'
 function Header() {
   return (
     <div className='header'>
-        <div>
+        <div className='headerlogo'>
             <h1>Samplelogo</h1>
         </div>
-        <div>
+        <div className='headercontact'>
             <p>Need help? Call 8107344682</p>
         </div>
     </div>

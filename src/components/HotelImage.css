@@ -1,0 +1,71 @@
+
+.hotelimage
+{
+    display: flex;
+    width: 85%;
+    padding: 1rem 0;
+    margin: 2rem auto;
+    justify-content: center;
+}
+
+.big
+{
+    width: 50%;
+}
+
+.small
+{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.small1
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.5rem;
+    justify-content: space-between;
+}
+
+.small2
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.5rem;
+    justify-content: space-between;
+}
+
+.hotelimages
+{
+    width: 100%;
+    height: 100%;
+    transition: all linear 0.3s;
+}
+
+.main
+{
+    height: 100%;
+    margin: 0rem 1rem;
+    overflow: hidden;
+    transition: all linear 0.3s;
+    border-radius: 10px;
+}
+
+.images
+{
+    height: 47%;
+    object-fit: cover;
+    overflow: hidden;
+    transition: all linear 0.3s;
+    margin: 0rem 0;
+    border-radius: 10px;
+}
+
+.hotelimages:hover
+{
+    transform: scale(1.2);
+    transition: all linear 0.3s;
+}
