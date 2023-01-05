@@ -26,3 +26,27 @@ h1
     font-size: 2rem;
     font-family: cursive;
 }
+
+@media screen and (max-width: 510px) {
+
+    .headerlogo {
+        padding: 0.5rem 0rem 0.5rem 2rem;
+    }
+
+    .headercontact {
+        padding: 0.5rem 1rem 0.5rem 0rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .headerlogo {
+        padding: 0.5rem 0rem 0.5rem 0.5rem;
+        text-align: center;
+    }
+
+    .headercontact {
+        padding: 0.5rem 0.5rem 0.5rem 0rem;
+        font-size: 0.8rem;
+    }
+}

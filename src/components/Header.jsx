@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className='header'>
         <div className='headerlogo'>
-            <h1>Samplelogo</h1>
+            <h1>Leyndell Inn</h1>
         </div>
         <div className='headercontact'>
             <p>Need help? Call 8107344682</p>

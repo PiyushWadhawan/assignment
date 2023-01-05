@@ -1,0 +1,84 @@
+.dropdown-main
+{
+    width: 25%;
+    opacity: 1;
+}
+.dropdown-btn
+{
+    padding: 1rem;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border: 0.7px solid rgb(176, 176, 176);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+.dropdown-list
+{
+    margin-top: 2px;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    border: 0.7px solid rgb(176, 176, 176);
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.dropdown-list .dropdown-item
+{
+    opacity: 1;
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown-list .dropdown-item:hover
+{
+    background-color: rgb(180, 180, 180);
+}
+
+.btn-area
+{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dropdown-btn:hover
+{
+    background-color: rgb(212, 212, 212);
+}
+
+@media screen and (max-width: 1006px) {
+
+    .room-btn {
+        font-size: 0.7rem;
+    }
+
+    .dropdown-btn {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .dropdown-main {
+        width: 80%;
+    }
+
+    .room-btn {
+        font-size: 1rem;
+    }
+
+    .dropdown-item {
+        
+    }
+    
+}

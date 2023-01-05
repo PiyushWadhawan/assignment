@@ -13,7 +13,37 @@
     justify-content: space-between;
 }
 
-ul
-{
-    
+.rules1 {
+    line-height: 1.5rem;
+}
+
+.rules2 {
+    line-height: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+
+    .rules {
+        flex-direction: column;
+    }
+
+    .rules1 {
+        line-height: 2rem;
+    }
+
+    .rules2 {
+        line-height: 2rem;
+    }
+
+    .hotelrules {
+        padding: 0;
+        width: 95%;
+    } 
+
+    ul {
+        padding: 1rem;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
 }

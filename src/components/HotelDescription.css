@@ -26,3 +26,68 @@
 {
     font-size: 1.2rem;
 }
+
+.features 
+{
+    display: flex;
+    gap: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+@media screen and (max-width: 1006px) {
+
+    .hotelcontent
+    {
+        width: 95%;
+        margin: 1rem auto;
+        padding: 0.3rem 0;
+    }
+    .mapimg {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .hotelcontent
+    {
+        width: 95%;
+        margin: 1rem auto;
+        padding: 0.3rem 0;
+    }
+    .mapimg {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .flexdiv {
+        flex-direction: column;
+    }
+
+    .heading {
+        text-align: center;
+    }
+
+    .mapimg {
+        width: 90%;
+    }
+
+    .map {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .features {
+        gap: 1rem;
+    }
+}
